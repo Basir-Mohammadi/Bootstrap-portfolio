@@ -1,0 +1,12 @@
+.home-bg {
+  background: url(imgs/Header-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 721px; */
+  width: 100%;
+}
+
+.icon-color {
+  color:rgba(80, 95, 121, 1);
+}
+
