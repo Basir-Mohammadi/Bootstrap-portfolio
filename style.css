@@ -14,3 +14,10 @@ body {
   color:rgba(80, 95, 121, 1);
 }
 
+.footer {
+  background: url(imgs/Headerbg@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 712px;
+  width: 100%;
+}
