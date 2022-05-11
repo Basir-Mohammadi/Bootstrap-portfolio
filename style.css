@@ -20,4 +20,5 @@ body {
   background-size: cover;
   height: 712px;
   width: 100%;
+  border-top-left-radius: 250px 100px;
 }
