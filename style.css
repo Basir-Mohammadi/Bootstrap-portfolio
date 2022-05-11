@@ -1,17 +1,17 @@
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .home-bg {
   background: url(imgs/Header-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 521px; 
+  height: 521px;
   width: 100%;
 }
 
 .icon-color {
-  color:rgba(80, 95, 121, 1);
+  color: rgba(80, 95, 121, 1);
 }
 
 .footer {
@@ -21,4 +21,9 @@ body {
   height: 712px;
   width: 100%;
   border-top-left-radius: 250px 100px;
+}
+
+.forms {
+  text-align:center; 
+  font-weight: 300;
 }
