@@ -1,8 +1,12 @@
+body {
+  background-color: #E5E5E5;
+}
+
 .home-bg {
   background: url(imgs/Header-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 721px; */
+  height: 521px;
   width: 100%;
 }
 
