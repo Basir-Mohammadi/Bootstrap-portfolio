@@ -320,7 +320,7 @@
                             <a href=""><i class="bi-linkedin icon-color"></i></a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-primary">Get My Resume</button>
+                    <button type="submit" class="btn btn-outline-primary">Get My Resume</button>
                   </div>
             </div>
         </div>
@@ -332,6 +332,19 @@
                         <i class="bi-caret-right"></i>
                     </a>
                 </li>
+                <li class="list-group-item">
+                    <a class="text-decoration-none d-flex justify-content-between" data-bs-toggle="collapse" href="#frameworks" aria-expanded="false" aria-controls="frameworks">
+                        Frameworks
+                        <i class="bi-caret-right right"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a class="text-decoration-none d-flex justify-content-between" data-bs-toggle="collapse" href="#skills" aria-expanded="false" aria-controls="skills">
+                        Skills
+                        <i class="bi-caret-right"></i>
+                    </a>
+                </li>
+            </ul>
                 <div class="collapse" id="languages">
                     <div class="row g- border-0">
                          <div class="col bg-secondary text-white rounded m-2">
@@ -349,13 +362,8 @@
                     </div>
                     <span class="border-bottom-1"></span>
                 </div>
-                <li class="list-group-item">
-                    <a class="text-decoration-none d-flex justify-content-between" data-bs-toggle="collapse" href="#frameworks" aria-expanded="false" aria-controls="frameworks">
-                        Frameworks
-                        <i class="bi-caret-right right"></i>
-                    </a>
-                </li>
-                <div class="collapse" id="frameworks">
+            </div>
+            <div class="collapse" id="frameworks">
                     <div class="row g-2 border-0">
                          <div class="col m-2">
                             <p>React</p>
@@ -375,12 +383,6 @@
                     </div>
                     <span class="border-bottom-1"></span>
                 </div>
-                <li class="list-group-item">
-                    <a class="text-decoration-none d-flex justify-content-between" data-bs-toggle="collapse" href="#skills" aria-expanded="false" aria-controls="skills">
-                        Skills
-                        <i class="bi-caret-right"></i>
-                    </a>
-                </li>
                 <div class="collapse" id="skills">
                     <div class="row g-2 border-0">
                          <div class="col m-2">
@@ -402,9 +404,7 @@
                     </div>
                     <span class="border-bottom-1"></span>
                 </div>
-            </ul>
-            </div>
-</div>
+        </div>
 
 <div class="container-fluid footer p-5  bg-primary d-grid d-md-flex justify-content-md-center">
   <form class="forms pt-5">
@@ -423,7 +423,7 @@
       <input type="email" class="form-control" id="exampleInputEmail1" maxlength="20" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="please write your email" required>
     </div>
     <div class="mb-3">
-      <textarea class="form-control" style="height:200px" id="validationTextarea" maxlength="500" placeholder="please write your text here" required></textarea>
+      <textarea class="form-control" rows="5" id="validationTextarea" maxlength="500" placeholder="please write your text here" required></textarea>
     </div>
   </div>
     <button type="submit" class="btn btn-light mt-3">Submit</button>
